@@ -43,3 +43,31 @@ A console-based **Secret PIN Guessing Game** written in C++ for my Programming F
 ```bash
 g++ main.cpp -o secret_pin_game
 ./secret_pin_game
+```
+*(Replace `main.cpp` with your source file name.)*
+
+---
+
+## 💻 Sample Output
+
+```text
+==========================================
+         SECRET PIN GUESSING GAME         
+==========================================
+
+The computer has locked a 4-digit Secret PIN!
+You have 5 attempts to crack it. Good luck!
+
+------------------------------------------
+Attempt 1 of 5
+Enter your 4-digit PIN guess (1000-9999): 4529
+Hint (Correctly Positioned Digits): [ 4 ] [ _ ] [ 2 ] [ _ ]
+Total digits in the correct position: 2 / 4
+```
+
+---
+
+## 👨‍💻 Author
+
+**Majid Ali**  
+BS Cybersecurity Student | Aror University
